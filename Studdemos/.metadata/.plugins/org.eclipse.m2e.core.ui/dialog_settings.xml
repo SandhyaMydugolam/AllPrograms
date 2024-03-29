@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\m.sandhya\training\Studdemos\struts-example-validation\src\main\java\com\example\action\EmployeeAction.java"/>
+			<item value="C:\Users\m.sandhya\training\Studdemos\struts-example-validation"/>
+			<item value="C:\Users\m.sandhya\training\Studdemos\struts-example-annotations\src\main\webapp\WEB-INF\content\welcome.jsp"/>
+			<item value="C:\Users\m.sandhya\training\Studdemos\struts-example-convention\src\main\webapp\index.jsp"/>
+			<item value="C:\Users\m.sandhya\training\Studdemos\com-struts-demo\src\main\java\com\struts\action\EmployeeAction.java"/>
+			<item value="C:\Users\m.sandhya\training\Studdemos\com-struts-demo\src\main\resources\struts.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.voya.demo"/>
+			<item value="com.studentapp.demo"/>
+			<item value="com.struts.validation"/>
+			<item value="com.struts.demo"/>
+			<item value="com.voya.dist"/>
+			<item value="com.struts.student"/>
+			<item value="struts-example-bean"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="struts-example-valuestack"/>
+			<item value="struts-studentapp-all"/>
+			<item value="struts-example-validation"/>
+			<item value="struts-example-annotations"/>
+			<item value="struts-example-convention"/>
+			<item value="struts-student-bean"/>
+			<item value="com-struts-demo"/>
+			<item value="struts-example-basic"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

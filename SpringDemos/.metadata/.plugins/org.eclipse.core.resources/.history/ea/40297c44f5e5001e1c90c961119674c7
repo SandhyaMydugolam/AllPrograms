@@ -1,0 +1,12 @@
+package com.bookapp;
+
+
+
+
+class SpringBookappJdbcApplication {
+
+	
+	void contextLoads() {
+	}
+
+}

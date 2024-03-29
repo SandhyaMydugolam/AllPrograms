@@ -1,0 +1,6 @@
+package com.spring.auto;
+
+public interface IInstrument {
+	void play(String song);
+
+}

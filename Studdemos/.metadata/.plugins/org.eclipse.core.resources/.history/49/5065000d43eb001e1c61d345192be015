@@ -1,0 +1,5 @@
+package com.structs.action;
+
+public class EmployeeAction {
+
+}

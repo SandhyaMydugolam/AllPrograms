@@ -1,0 +1,91 @@
+package com.bookapp.testcases;
+
+import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.bookapp.exception.BookNotFoundException;
+import com.bookapp.model.Book;
+import com.bookapp.service.IBookService;
+import com.bookapp.service.OrderDetails;
+@RunWith(JUnitPlatform.class)
+@ExtendWith(MockitoExtension.class)
+ class BookOrderDetailsTest {
+	@Mock
+	IBookService bookService;// creating a proxy
+	
+	// creates an object of OrderDetails();
+	//injects bookservice into orderDetails using tester
+	@InjectMocks
+	
+	OrderDetails orderDetails;
+	List<Book> bookList;
+	Book book1, book2,book3, book4, book5, book6;
+	
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@BeforeEach
+	public void setUp() throws Exception {
+		orderDetails = new OrderDetails();
+		book1 = new Book("java","kathy",1900,1);
+		book2 = new Book("spring","kathy",800,2);
+		book3 = new Book("java","joe",800,3);
+		book4 = new Book("leadership","kathy",1800,4);
+		book5 = new Book("JSP","kathy",800,5);
+		book6 = new Book("miracle","kathy",800,6);
+		bookList = Arrays.asList(book1,book2,book3,book4,book5,book6);
+	}
+	
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testShowBooks() throws BookNotFoundException {
+		String author = "kathy";
+		List<Book> booksByAuthor = Arrays.asList(book1,book2,book4,book5,book6);
+		Mockito.when(bookService.getByAuthor(author)).thenReturn(booksByAuthor);
+		List<Book>expected = Arrays.asList(book3,book1,book5);
+		//method to be tested
+		List<Book> actual = orderDetails.showBooks(author);
+		assertEquals(expected,actual);
+		
+	}
+	
+	@Test
+	void testOrderBooks() {
+		String author ="priya";
+		// calling the method using proxy and assuming that we got 5 books
+		Mockito.when(bookService.getByAuthor(author)).thenReturn(new ArrayList<>());
+		assertThrows(BookNotFoundException.class, ()->orderDetails.showBooks(author));
+		
+		
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RequestDispatchDemo/src/main/webapp/error.jsp&apos; to &apos;errorhandler.jsp&apos;" description="Rename resource &apos;error.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/error.jsp" name="errorhandler.jsp" stamp="1710480665534" updateReferences="true"/>
+</session>

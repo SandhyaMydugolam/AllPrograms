@@ -1,0 +1,27 @@
+INDEX VERSION 1.131
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2755552936.index
+\struts-example-validation\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4233624835.index
+\struts-example-valuestack\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\773524570.index
+\struts-example-validation\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2728470774.index
+\struts-example-basic\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2441208955.index
+\struts-example-convention\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2367012084.index
+\struts-studentapp-all\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3267984017.index
+\struts-studentapp-all\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3056390861.index
+\struts-example-valuestack\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1900120237.index
+\struts-example-convention\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3244819212.index
+\struts-example-annotations\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\761634131.index
+\com-struts-demo\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1651115099.index
+\struts-example-annotations\src\main\java
+C:\Users\m.sandhya\training\Studdemos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\36057734.index
+\struts-example-validation\src\main\java

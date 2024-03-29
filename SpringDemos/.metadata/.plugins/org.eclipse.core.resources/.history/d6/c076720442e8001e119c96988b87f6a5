@@ -1,0 +1,21 @@
+package com.insuranceapp.model;
+
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AppUsermapper {
+	
+// convert userDetails to AppUser
+	public AppUser convertToAppUser(UserDetails userDetails) {
+		String username = userDetails.getUsername();
+		String password = userDetails.getPassword();
+	// List<GrantedAuthority> authorities=
+		userDetails.getAuthorities();
+		AppUser appUser = new AppUser();
+		appUser.setUserName(username);
+		appUser.setPassword(password);
+		return appUser;
+	}
+
+}

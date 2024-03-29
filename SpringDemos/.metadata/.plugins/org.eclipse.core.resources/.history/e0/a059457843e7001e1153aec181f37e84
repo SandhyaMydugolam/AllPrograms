@@ -1,0 +1,17 @@
+package com.productapp.exception;
+
+public class productNotFoundEXception extends RuntimeException {
+
+	public productNotFoundEXception() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public productNotFoundEXception(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}
